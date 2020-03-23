@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -xe
 
 if [ $# -ne 1 ]; then
   echo "usage: $0 <version>"
@@ -12,6 +12,6 @@ mv /tmp/package.json.tmp Assets/GradientShader/package.json
 git add Assets/GradientShader/package.json
 git commit -m ":up: Bump up version $VERSION"
 git subtree split --prefix=Assets/GradientShader --branch upm
-git tags $VERSION upm
+git tag $VERSION upm
 git push origin --tags
 
