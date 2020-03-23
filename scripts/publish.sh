@@ -14,4 +14,4 @@ git commit -m ":up: Bump up version $VERSION"
 git subtree split --prefix=Assets/GradientShader --branch upm
 git tag $VERSION upm
 git push origin --tags
-
+git push origin
