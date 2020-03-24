@@ -4,6 +4,8 @@ Gradient shader for uGUI
 
 ![art](./art/gradient_small.gif)
 
+<img alt="rainbow" src="./art/rainbow.png" width=320 />
+
 ## Install
 
 Package/manifest.json
